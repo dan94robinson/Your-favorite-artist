@@ -135,3 +135,7 @@
   z-index: 19;
   display: none;
 }
+ul,
+li {
+  list-style-type: none; 
+}
