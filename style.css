@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+.cards {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto;
+}
+.band {
+  margin-bottom: 1vh;
+  border-radius: 2.5vh;
+  height: 30vh;
+  width: 50vh;
+  cursor: pointer;
+}
+
+/* BANDS */
+#mcr {
+  background: url("./images/mcr.jpg");
+  background-size: 50vh 30vh;
+}
+#aero {
+  background: url("./images/aerosmith-2.jpg");
+  background-size: 50vh 30vh;
+}
+#ledzep {
+  background: url("./images/ledzep-2.jpg");
+  background-size: 50vh 30vh;
+}
+#mazstar {
+  background: url("./images/mazstar.png");
+  background-size: 50vh 30vh;
+}
+#outkast {
+  background: url("./images/oukast-1.jpg");
+  background-size: 50vh 30vh;
+}
+#train {
+  background: url("./images/train.jpg");
+  background-size: 50vh 30vh;
+}
+#gdead {
+  background: url("./images/gdead.jpg");
+  background-size: 50vh 30vh;
+}
+#nirvana {
+  background: url("./images/nirvana.jpg");
+  background-size: 50vh 30vh;
+}
+#creed {
+  background: url("./images/creed.jpeg");
+  background-size: 50vh 30vh;
+}
+
+/* RED ONES */
+#aero.red {
+  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
+    url("./images/aerosmith-2.jpg");
+  background-size: 50vh 30vh;
+  background-position: center;
+}
+
+#train.red {
+  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
+    url("./images/train.jpg");
+  background-size: 50vh 30vh;
+}
+#creed.red {
+  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
+    url("./images/creed.jpeg");
+  background-size: 50vh 30vh;
+}
+
+/* FACTS */
+
+.facts {
+  position: absolute;
+  background: rgb(204, 237, 199);
+  border-radius: 5vh;
+  z-index: 25;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 27vh;
+  margin-bottom: auto;
+  width: 53%;
+  height: 51%;
+}
+#mychem.facts {
+  display: none;
+}
+#asmith.facts {
+  background: rgb(255, 166, 166);
+  display: none;
+}
+#lzep.facts {
+  display: none;
+}
+#mstar.facts {
+  display: none;
+}
+#okast.facts {
+  display: none;
+}
+#tr8n.facts {
+  background: rgb(255, 166, 166);
+  display: none;
+}
+#grate.facts {
+  display: none;
+}
+#kurt.facts {
+  display: none;
+}
+#suck.facts {
+  background: rgb(255, 166, 166);
+  display: none;
+}
+
+#grey {
+  background: rgb(58, 58, 58);
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 19;
+  display: none;
+}
